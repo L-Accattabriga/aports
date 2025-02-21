@@ -3,8 +3,7 @@
 IMAGE=$1
 
 if [ -z "$IMAGE" ]; then
-printf "ERROR: Enter name of Image\n"
-printf "Usage: gen-iso.sh <IMAGE>"
+printf "ERROR\n"
 exit 1
 fi
 xorriso -as mkisofs \
