@@ -8,7 +8,7 @@ xorriso -as mkisofs \
   -c image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/boot/syslinux/boot.cat \
   -b image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/boot/syslinux/isolinux.bin \
      -no-emul-boot -boot-load-size 4 -boot-info-table \
-  -eltorito-alt-boot -e image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/efi/boot/bootx64.efi \
+  -eltorito-alt-boot -e image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/boot/grub/efi.img \
      -no-emul-boot -isohybrid-gpt-basdat \
   -isohybrid-apm-hfsplus \
   -V "ALPINE_CUSTOM" \
