@@ -1,0 +1,858 @@
+tmp/mkimage.TzL9Ag/:
+total 4
+drwxr-xr-x 1 root root 38 Feb 21 19:25 apkroot-x86_64
+drwxr-xr-x 1 root root  8 Feb 21 19:26 apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0
+drwxr-xr-x 1 root root  8 Feb 21 19:26 grub_cfg_boot_grub_grub_cfg_06a48979366ae2f74f9a3a3f63fef5131a793fbe
+drwxr-xr-x 1 root root  6 Feb 21 19:26 grub_efi_x86_64_efi_bootx64_efi_a4c5deeb70f16f8e794c304f10ecb2c070d6e8c4
+drwxr-xr-x 1 root root 52 Feb 21 19:26 image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard
+drwxr-xr-x 1 root root  8 Feb 21 19:26 kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts
+drwxr-xr-x 1 root root  8 Feb 21 19:26 syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60
+drwxr-xr-x 1 root root  8 Feb 21 19:26 syslinux_cfg_boot_syslinux_syslinux_cfg_1f7f7f803bd6492e2ab43ae57d09abadb5557f60
+drwxr-xr-x 1 root root  6 Feb 21 19:26 usr
+-rw-r--r-- 1 root root 98 Feb 21 19:26 grub_early.a4c5deeb70f16f8e794c304f10ecb2c070d6e8c4.cfg
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64:
+total 0
+drwxr-xr-x 1 root root 56 Feb 21 19:25 dev
+drwxr-xr-x 1 root root  6 Feb 21 19:25 etc
+drwxr-xr-x 1 root root  6 Feb 21 19:25 lib
+dr-xr-xr-x 1 root root  0 Feb 21 19:25 proc
+drwxrwxrwt 1 root root  0 Feb 21 19:25 tmp
+drwxr-xr-x 1 root root 10 Feb 21 19:25 var
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/dev:
+total 0
+crw------- 1 root root 5, 1 Feb 21 19:25 console
+crw-rw-rw- 1 root root 1, 3 Feb 21 19:25 null
+crw-rw-rw- 1 root root 1, 8 Feb 21 19:25 random
+crw-rw-rw- 1 root root 1, 9 Feb 21 19:25 urandom
+crw-rw-rw- 1 root root 1, 5 Feb 21 19:25 zero
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/etc:
+total 0
+drwxr-xr-x 1 root root 60 Feb 21 19:25 apk
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/etc/apk:
+total 12
+drwxr-xr-x 1 root root  66 Feb 21 19:25 cache
+drwxr-xr-x 1 root root 348 Feb 21 19:25 keys
+-rw-r--r-- 1 root root   7 Feb 21 19:25 arch
+-rw-r--r-- 1 root root  56 Feb 21 19:25 repositories
+-rw-r--r-- 1 root root   1 Feb 21 19:25 world
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/etc/apk/cache:
+total 476
+-rw-r--r-- 1 root root 486848 Feb 21 19:25 APKINDEX.6f88eeb6.tar.gz
+-rw-r--r-- 1 root root      0 Feb 21 19:25 installed
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/etc/apk/keys:
+total 16
+-rw-r--r-- 1 root root 451 Feb 21 19:25 alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub
+-rw-r--r-- 1 root root 451 Feb 21 19:25 alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub
+-rw-r--r-- 1 root root 800 Feb 21 19:25 alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub
+-rw-r--r-- 1 root root 800 Feb 21 19:25 root-67b851b9.rsa.pub
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/lib:
+total 0
+drwxr-xr-x 1 root root 4 Feb 21 19:25 apk
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/lib/apk:
+total 0
+drwxr-xr-x 1 root root 64 Feb 21 19:25 db
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/lib/apk/db:
+total 4
+-rw-r--r-- 1 root root    0 Feb 21 19:25 installed
+-rw------- 1 root root    0 Feb 21 19:25 lock
+-rw-r--r-- 1 root root 1024 Feb 21 19:25 scripts.tar
+-rw-r--r-- 1 root root    0 Feb 21 19:25 triggers
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/proc:
+total 0
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/tmp:
+total 0
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/var:
+total 0
+drwxr-xr-x 1 root root 14 Feb 21 19:25 cache
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/var/cache:
+total 0
+drwxr-xr-x 1 root root 0 Feb 21 19:25 apk
+drwxr-xr-x 1 root root 0 Feb 21 19:25 misc
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/var/cache/apk:
+total 0
+
+tmp/mkimage.TzL9Ag/apkroot-x86_64/var/cache/misc:
+total 0
+
+tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0:
+total 0
+drwxr-xr-x 1 root root 44 Feb 21 19:26 apks
+
+tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks:
+total 0
+drwxr-xr-x 1 root root 1846 Feb 21 19:26 x86_64
+
+tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64:
+total 15752
+-rw-r--r-- 1 root root    5600 Feb 21 19:26 APKINDEX.tar.gz
+-rw-r--r-- 1 root root    1260 Feb 13 23:03 alpine-base-3.21.3-r0.apk
+-rw-r--r-- 1 root root    8306 Jan  4 07:05 alpine-baselayout-3.6.8-r1.apk
+-rw-r--r-- 1 root root   10722 Jan  4 07:05 alpine-baselayout-data-3.6.8-r1.apk
+-rw-r--r-- 1 root root   61089 Jan  1 15:03 alpine-conf-3.19.2-r0.apk
+-rw-r--r-- 1 root root   13327 Oct 30 12:33 alpine-keys-2.5-r0.apk
+-rw-r--r-- 1 root root    2035 Feb 13 23:03 alpine-release-3.21.3-r0.apk
+-rw-r--r-- 1 root root  122059 Feb 13 22:01 apk-tools-2.14.6-r3.apk
+-rw-r--r-- 1 root root  505881 Jan 17 18:15 busybox-1.37.0-r12.apk
+-rw-r--r-- 1 root root    1509 Jan 17 18:15 busybox-binsh-1.37.0-r12.apk
+-rw-r--r-- 1 root root    1976 Jan 17 18:15 busybox-mdev-openrc-1.37.0-r12.apk
+-rw-r--r-- 1 root root    3692 Jan 17 18:15 busybox-openrc-1.37.0-r12.apk
+-rw-r--r-- 1 root root    3875 Jan 17 18:15 busybox-suid-1.37.0-r12.apk
+-rw-r--r-- 1 root root  130932 Jan  8 09:58 ca-certificates-bundle-20241121-r1.apk
+-rw-r--r-- 1 root root  124379 Oct 30 12:34 dbus-libs-1.14.10-r4.apk
+-rw-r--r-- 1 root root   29307 Oct 30 12:34 ifupdown-ng-0.12.1-r6.apk
+-rw-r--r-- 1 root root    3030 Oct 30 12:34 ifupdown-ng-wifi-0.12.1-r6.apk
+-rw-r--r-- 1 root root  100326 Oct 30 12:34 iw-6.9-r0.apk
+-rw-r--r-- 1 root root   21902 Nov 18 21:10 libcap2-2.71-r0.apk
+-rw-r--r-- 1 root root 1827777 Feb 11 20:23 libcrypto3-3.3.3-r0.apk
+-rw-r--r-- 1 root root  158593 Nov 11 17:11 libncursesw-6.5_p20241006-r3.apk
+-rw-r--r-- 1 root root  332945 Nov 20 13:47 libnl3-3.11.0-r0.apk
+-rw-r--r-- 1 root root  357457 Feb 11 20:23 libssl3-3.3.3-r0.apk
+-rw-r--r-- 1 root root    5062 Oct 30 12:35 mdev-conf-4.7-r0.apk
+-rw-r--r-- 1 root root  411323 Feb 13 17:58 musl-1.2.5-r9.apk
+-rw-r--r-- 1 root root   36055 Feb 13 17:58 musl-utils-1.2.5-r9.apk
+-rw-r--r-- 1 root root   21319 Nov 11 17:11 ncurses-terminfo-base-6.5_p20241006-r3.apk
+-rw-r--r-- 1 root root  207346 Oct 30 12:35 openrc-0.55.1-r2.apk
+-rw-r--r-- 1 root root   22476 Oct 30 12:35 pcsc-lite-libs-2.2.3-r1.apk
+-rw-r--r-- 1 root root   32431 Oct 30 12:35 scanelf-1.3.8-r1.apk
+-rw-r--r-- 1 root root    4635 Jan 17 18:15 ssl_client-1.37.0-r12.apk
+-rw-r--r-- 1 root root 1499632 Feb 12 17:46 vim-9.1.1105-r0.apk
+-rw-r--r-- 1 root root 8122924 Feb 12 17:46 vim-common-9.1.1105-r0.apk
+-rw-r--r-- 1 root root 1792430 Oct 30 12:35 wpa_supplicant-2.10-r11.apk
+-rw-r--r-- 1 root root    3089 Oct 30 12:35 wpa_supplicant-openrc-2.10-r11.apk
+-rw-r--r-- 1 root root    9330 Feb 12 17:46 xxd-9.1.1105-r0.apk
+-rw-r--r-- 1 root root   53979 Oct 30 12:35 zlib-1.3.1-r2.apk
+
+tmp/mkimage.TzL9Ag/grub_cfg_boot_grub_grub_cfg_06a48979366ae2f74f9a3a3f63fef5131a793fbe:
+total 0
+drwxr-xr-x 1 root root 8 Feb 21 19:26 boot
+
+tmp/mkimage.TzL9Ag/grub_cfg_boot_grub_grub_cfg_06a48979366ae2f74f9a3a3f63fef5131a793fbe/boot:
+total 0
+drwxr-xr-x 1 root root 16 Feb 21 19:26 grub
+
+tmp/mkimage.TzL9Ag/grub_cfg_boot_grub_grub_cfg_06a48979366ae2f74f9a3a3f63fef5131a793fbe/boot/grub:
+total 4
+-rw-r--r-- 1 root root 140 Feb 21 19:26 grub.cfg
+
+tmp/mkimage.TzL9Ag/grub_efi_x86_64_efi_bootx64_efi_a4c5deeb70f16f8e794c304f10ecb2c070d6e8c4:
+total 0
+drwxr-xr-x 1 root root 8 Feb 21 19:26 efi
+
+tmp/mkimage.TzL9Ag/grub_efi_x86_64_efi_bootx64_efi_a4c5deeb70f16f8e794c304f10ecb2c070d6e8c4/efi:
+total 0
+drwxr-xr-x 1 root root 22 Feb 21 19:26 boot
+
+tmp/mkimage.TzL9Ag/grub_efi_x86_64_efi_bootx64_efi_a4c5deeb70f16f8e794c304f10ecb2c070d6e8c4/efi/boot:
+total 708
+-rw-r--r-- 1 root root 724992 Feb 21 19:26 bootx64.efi
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard:
+total 0
+drwxr-xr-x 1 root root  44 Feb 21 19:26 apks
+drwxr-xr-x 1 root root 228 Feb 21 19:26 boot
+drwxr-xr-x 1 root root   8 Feb 21 19:26 efi
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/apks:
+total 0
+drwxr-xr-x 1 root root 1846 Feb 21 19:26 x86_64
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/apks/x86_64:
+total 148
+lrwxrwxrwx 1 root root 111 Feb 21 19:26 APKINDEX.tar.gz -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/APKINDEX.tar.gz
+lrwxrwxrwx 1 root root 121 Feb 21 19:26 alpine-base-3.21.3-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-base-3.21.3-r0.apk
+lrwxrwxrwx 1 root root 126 Feb 21 19:26 alpine-baselayout-3.6.8-r1.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-baselayout-3.6.8-r1.apk
+lrwxrwxrwx 1 root root 131 Feb 21 19:26 alpine-baselayout-data-3.6.8-r1.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-baselayout-data-3.6.8-r1.apk
+lrwxrwxrwx 1 root root 121 Feb 21 19:26 alpine-conf-3.19.2-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-conf-3.19.2-r0.apk
+lrwxrwxrwx 1 root root 118 Feb 21 19:26 alpine-keys-2.5-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-keys-2.5-r0.apk
+lrwxrwxrwx 1 root root 124 Feb 21 19:26 alpine-release-3.21.3-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-release-3.21.3-r0.apk
+lrwxrwxrwx 1 root root 119 Feb 21 19:26 apk-tools-2.14.6-r3.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/apk-tools-2.14.6-r3.apk
+lrwxrwxrwx 1 root root 118 Feb 21 19:26 busybox-1.37.0-r12.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 124 Feb 21 19:26 busybox-binsh-1.37.0-r12.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-binsh-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 130 Feb 21 19:26 busybox-mdev-openrc-1.37.0-r12.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-mdev-openrc-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 125 Feb 21 19:26 busybox-openrc-1.37.0-r12.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-openrc-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 123 Feb 21 19:26 busybox-suid-1.37.0-r12.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-suid-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 134 Feb 21 19:26 ca-certificates-bundle-20241121-r1.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ca-certificates-bundle-20241121-r1.apk
+lrwxrwxrwx 1 root root 120 Feb 21 19:26 dbus-libs-1.14.10-r4.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/dbus-libs-1.14.10-r4.apk
+lrwxrwxrwx 1 root root 121 Feb 21 19:26 ifupdown-ng-0.12.1-r6.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ifupdown-ng-0.12.1-r6.apk
+lrwxrwxrwx 1 root root 126 Feb 21 19:26 ifupdown-ng-wifi-0.12.1-r6.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ifupdown-ng-wifi-0.12.1-r6.apk
+lrwxrwxrwx 1 root root 109 Feb 21 19:26 iw-6.9-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/iw-6.9-r0.apk
+lrwxrwxrwx 1 root root 115 Feb 21 19:26 libcap2-2.71-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libcap2-2.71-r0.apk
+lrwxrwxrwx 1 root root 119 Feb 21 19:26 libcrypto3-3.3.3-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libcrypto3-3.3.3-r0.apk
+lrwxrwxrwx 1 root root 128 Feb 21 19:26 libncursesw-6.5_p20241006-r3.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libncursesw-6.5_p20241006-r3.apk
+lrwxrwxrwx 1 root root 116 Feb 21 19:26 libnl3-3.11.0-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libnl3-3.11.0-r0.apk
+lrwxrwxrwx 1 root root 116 Feb 21 19:26 libssl3-3.3.3-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libssl3-3.3.3-r0.apk
+lrwxrwxrwx 1 root root 116 Feb 21 19:26 mdev-conf-4.7-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/mdev-conf-4.7-r0.apk
+lrwxrwxrwx 1 root root 113 Feb 21 19:26 musl-1.2.5-r9.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/musl-1.2.5-r9.apk
+lrwxrwxrwx 1 root root 119 Feb 21 19:26 musl-utils-1.2.5-r9.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/musl-utils-1.2.5-r9.apk
+lrwxrwxrwx 1 root root 138 Feb 21 19:26 ncurses-terminfo-base-6.5_p20241006-r3.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ncurses-terminfo-base-6.5_p20241006-r3.apk
+lrwxrwxrwx 1 root root 116 Feb 21 19:26 openrc-0.55.1-r2.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/openrc-0.55.1-r2.apk
+lrwxrwxrwx 1 root root 123 Feb 21 19:26 pcsc-lite-libs-2.2.3-r1.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/pcsc-lite-libs-2.2.3-r1.apk
+lrwxrwxrwx 1 root root 116 Feb 21 19:26 scanelf-1.3.8-r1.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/scanelf-1.3.8-r1.apk
+lrwxrwxrwx 1 root root 121 Feb 21 19:26 ssl_client-1.37.0-r12.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ssl_client-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 115 Feb 21 19:26 vim-9.1.1105-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/vim-9.1.1105-r0.apk
+lrwxrwxrwx 1 root root 122 Feb 21 19:26 vim-common-9.1.1105-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/vim-common-9.1.1105-r0.apk
+lrwxrwxrwx 1 root root 123 Feb 21 19:26 wpa_supplicant-2.10-r11.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/wpa_supplicant-2.10-r11.apk
+lrwxrwxrwx 1 root root 130 Feb 21 19:26 wpa_supplicant-openrc-2.10-r11.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/wpa_supplicant-openrc-2.10-r11.apk
+lrwxrwxrwx 1 root root 115 Feb 21 19:26 xxd-9.1.1105-r0.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/xxd-9.1.1105-r0.apk
+lrwxrwxrwx 1 root root 113 Feb 21 19:26 zlib-1.3.1-r2.apk -> /home/build/tmp/mkimage.TzL9Ag/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/zlib-1.3.1-r2.apk
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/boot:
+total 24
+drwxr-xr-x 1 root root    0 Feb 21 19:26 dtbs-lts
+drwxr-xr-x 1 root root   16 Feb 21 19:26 grub
+drwxr-xr-x 1 root root  158 Feb 21 19:26 syslinux
+lrwxrwxrwx 1 root root  178 Feb 21 19:26 System.map-6.12.16-0-lts -> /home/build/tmp/mkimage.TzL9Ag/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/System.map-6.12.16-0-lts
+lrwxrwxrwx 1 root root  174 Feb 21 19:26 config-6.12.16-0-lts -> /home/build/tmp/mkimage.TzL9Ag/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/config-6.12.16-0-lts
+lrwxrwxrwx 1 root root  167 Feb 21 19:26 initramfs-lts -> /home/build/tmp/mkimage.TzL9Ag/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/initramfs-lts
+lrwxrwxrwx 1 root root  165 Feb 21 19:26 modloop-lts -> /home/build/tmp/mkimage.TzL9Ag/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/modloop-lts
+-rw-r--r-- 1 root root 4096 Feb 21 19:26 rootfs.squashfs
+lrwxrwxrwx 1 root root  165 Feb 21 19:26 vmlinuz-lts -> /home/build/tmp/mkimage.TzL9Ag/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/vmlinuz-lts
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/boot/dtbs-lts:
+total 0
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/boot/grub:
+total 4
+lrwxrwxrwx 1 root root 118 Feb 21 19:26 grub.cfg -> /home/build/tmp/mkimage.TzL9Ag/grub_cfg_boot_grub_grub_cfg_06a48979366ae2f74f9a3a3f63fef5131a793fbe/boot/grub/grub.cfg
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/boot/syslinux:
+total 28
+lrwxrwxrwx 1 root root 107 Feb 21 19:26 isohdpfx.bin -> /home/build/tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/isohdpfx.bin
+lrwxrwxrwx 1 root root 107 Feb 21 19:26 isolinux.bin -> /home/build/tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/isolinux.bin
+lrwxrwxrwx 1 root root 106 Feb 21 19:26 ldlinux.c32 -> /home/build/tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/ldlinux.c32
+lrwxrwxrwx 1 root root 107 Feb 21 19:26 libcom32.c32 -> /home/build/tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/libcom32.c32
+lrwxrwxrwx 1 root root 106 Feb 21 19:26 libutil.c32 -> /home/build/tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/libutil.c32
+lrwxrwxrwx 1 root root 104 Feb 21 19:26 mboot.c32 -> /home/build/tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/mboot.c32
+lrwxrwxrwx 1 root root 138 Feb 21 19:26 syslinux.cfg -> /home/build/tmp/mkimage.TzL9Ag/syslinux_cfg_boot_syslinux_syslinux_cfg_1f7f7f803bd6492e2ab43ae57d09abadb5557f60/boot/syslinux/syslinux.cfg
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/efi:
+total 0
+drwxr-xr-x 1 root root 22 Feb 21 19:26 boot
+
+tmp/mkimage.TzL9Ag/image-b5c981919b5d9558925571863a2f705c0e6f0bca-x86_64-standard/efi/boot:
+total 4
+lrwxrwxrwx 1 root root 124 Feb 21 19:26 bootx64.efi -> /home/build/tmp/mkimage.TzL9Ag/grub_efi_x86_64_efi_bootx64_efi_a4c5deeb70f16f8e794c304f10ecb2c070d6e8c4/efi/boot/bootx64.efi
+
+tmp/mkimage.TzL9Ag/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts:
+total 0
+drwxr-xr-x 1 root root 174 Feb 21 19:26 boot
+
+tmp/mkimage.TzL9Ag/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot:
+total 231956
+drwxr-xr-x 1 root root         0 Feb 21 19:26 dtbs-lts
+-rw-r--r-- 1 root root   6606136 Feb 21 19:26 System.map-6.12.16-0-lts
+-rw-r--r-- 1 root root    270856 Feb 21 19:26 config-6.12.16-0-lts
+-rw------- 1 root root  18037116 Feb 21 19:26 initramfs-lts
+-rw-r--r-- 1 root root 200990720 Feb 21 19:26 modloop-lts
+-rw-r--r-- 1 root root  11609088 Feb 21 19:26 vmlinuz-lts
+
+tmp/mkimage.TzL9Ag/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/dtbs-lts:
+total 0
+
+tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60:
+total 0
+drwxr-xr-x 1 root root 16 Feb 21 19:26 boot
+
+tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot:
+total 0
+drwxr-xr-x 1 root root 134 Feb 21 19:26 syslinux
+
+tmp/mkimage.TzL9Ag/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux:
+total 380
+-rw-r--r-- 1 root root    432 Dec  6 22:35 isohdpfx.bin
+-rw-r--r-- 1 root root  43008 Dec  6 22:35 isolinux.bin
+-rw-r--r-- 1 root root 115416 Dec  6 22:35 ldlinux.c32
+-rw-r--r-- 1 root root 178448 Dec  6 22:35 libcom32.c32
+-rw-r--r-- 1 root root  24992 Dec  6 22:35 libutil.c32
+-rw-r--r-- 1 root root  11712 Dec  6 22:35 mboot.c32
+
+tmp/mkimage.TzL9Ag/syslinux_cfg_boot_syslinux_syslinux_cfg_1f7f7f803bd6492e2ab43ae57d09abadb5557f60:
+total 0
+drwxr-xr-x 1 root root 16 Feb 21 19:26 boot
+
+tmp/mkimage.TzL9Ag/syslinux_cfg_boot_syslinux_syslinux_cfg_1f7f7f803bd6492e2ab43ae57d09abadb5557f60/boot:
+total 0
+drwxr-xr-x 1 root root 24 Feb 21 19:26 syslinux
+
+tmp/mkimage.TzL9Ag/syslinux_cfg_boot_syslinux_syslinux_cfg_1f7f7f803bd6492e2ab43ae57d09abadb5557f60/boot/syslinux:
+total 4
+-rw-r--r-- 1 root root 193 Feb 21 19:26 syslinux.cfg
+
+tmp/mkimage.TzL9Ag/usr:
+total 0
+drwxr-xr-x 1 root root 8 Feb 21 19:26 lib
+
+tmp/mkimage.TzL9Ag/usr/lib:
+total 0
+drwxr-xr-x 1 root root 20 Jan  1 10:54 grub
+
+tmp/mkimage.TzL9Ag/usr/lib/grub:
+total 0
+drwxr-xr-x 1 root root 13968 Jan  1 10:54 x86_64-efi
+
+tmp/mkimage.TzL9Ag/usr/lib/grub/x86_64-efi:
+total 5464
+-rw-r--r-- 1 root root  15744 Jan  1 10:54 acpi.mod
+-rwxr-xr-x 1 root root   7832 Jan  1 10:54 acpi.module
+-rw-r--r-- 1 root root   1832 Jan  1 10:54 adler32.mod
+-rwxr-xr-x 1 root root    992 Jan  1 10:54 adler32.module
+-rw-r--r-- 1 root root   8064 Jan  1 10:54 affs.mod
+-rwxr-xr-x 1 root root   4560 Jan  1 10:54 affs.module
+-rw-r--r-- 1 root root   8472 Jan  1 10:54 afs.mod
+-rwxr-xr-x 1 root root   5360 Jan  1 10:54 afs.module
+-rw-r--r-- 1 root root   2112 Jan  1 10:54 afsplitter.mod
+-rwxr-xr-x 1 root root   1320 Jan  1 10:54 afsplitter.module
+-rw-r--r-- 1 root root  22080 Jan  1 10:54 ahci.mod
+-rwxr-xr-x 1 root root  12624 Jan  1 10:54 ahci.module
+-rw-r--r-- 1 root root    704 Jan  1 10:54 all_video.mod
+-rwxr-xr-x 1 root root    592 Jan  1 10:54 all_video.module
+-rw-r--r-- 1 root root   1376 Jan  1 10:54 aout.mod
+-rwxr-xr-x 1 root root    808 Jan  1 10:54 aout.module
+-rw-r--r-- 1 root root   5008 Jan  1 10:54 appleldr.mod
+-rwxr-xr-x 1 root root   2384 Jan  1 10:54 appleldr.module
+-rw-r--r-- 1 root root   4544 Jan  1 10:54 archelp.mod
+-rwxr-xr-x 1 root root   2616 Jan  1 10:54 archelp.module
+-rw-r--r-- 1 root root   6568 Jan  1 10:54 at_keyboard.mod
+-rwxr-xr-x 1 root root   3368 Jan  1 10:54 at_keyboard.module
+-rw-r--r-- 1 root root   8888 Jan  1 10:54 ata.mod
+-rwxr-xr-x 1 root root   4768 Jan  1 10:54 ata.module
+-rw-r--r-- 1 root root   2416 Jan  1 10:54 backtrace.mod
+-rwxr-xr-x 1 root root   1200 Jan  1 10:54 backtrace.module
+-rw-r--r-- 1 root root   9688 Jan  1 10:54 bfs.mod
+-rwxr-xr-x 1 root root   6128 Jan  1 10:54 bfs.module
+-rw-r--r-- 1 root root   3096 Jan  1 10:54 bitmap.mod
+-rwxr-xr-x 1 root root   1720 Jan  1 10:54 bitmap.module
+-rw-r--r-- 1 root root   5216 Jan  1 10:54 bitmap_scale.mod
+-rwxr-xr-x 1 root root   3648 Jan  1 10:54 bitmap_scale.module
+-rw-r--r-- 1 root root   3416 Jan  1 10:54 bli.mod
+-rwxr-xr-x 1 root root   1688 Jan  1 10:54 bli.module
+-rw-r--r-- 1 root root   2952 Jan  1 10:54 blocklist.mod
+-rwxr-xr-x 1 root root   1632 Jan  1 10:54 blocklist.module
+-rw-r--r-- 1 root root   3712 Jan  1 10:54 boot.mod
+-rwxr-xr-x 1 root root   1696 Jan  1 10:54 boot.module
+-rw-r--r-- 1 root root  49904 Jan  1 10:54 bsd.mod
+-rwxr-xr-x 1 root root  27256 Jan  1 10:54 bsd.module
+-rw-r--r-- 1 root root   3152 Jan  1 10:54 bswap_test.mod
+-rwxr-xr-x 1 root root   1736 Jan  1 10:54 bswap_test.module
+-rw-r--r-- 1 root root  27928 Jan  1 10:54 btrfs.mod
+-rwxr-xr-x 1 root root  16984 Jan  1 10:54 btrfs.module
+-rw-r--r-- 1 root root   2800 Jan  1 10:54 bufio.mod
+-rwxr-xr-x 1 root root   1584 Jan  1 10:54 bufio.module
+-rw-r--r-- 1 root root   4344 Jan  1 10:54 cat.mod
+-rwxr-xr-x 1 root root   2312 Jan  1 10:54 cat.module
+-rw-r--r-- 1 root root   5704 Jan  1 10:54 cbfs.mod
+-rwxr-xr-x 1 root root   2776 Jan  1 10:54 cbfs.module
+-rw-r--r-- 1 root root   5584 Jan  1 10:54 cbls.mod
+-rwxr-xr-x 1 root root   3560 Jan  1 10:54 cbls.module
+-rw-r--r-- 1 root root   3784 Jan  1 10:54 cbmemc.mod
+-rwxr-xr-x 1 root root   1528 Jan  1 10:54 cbmemc.module
+-rw-r--r-- 1 root root   1528 Jan  1 10:54 cbtable.mod
+-rwxr-xr-x 1 root root    944 Jan  1 10:54 cbtable.module
+-rw-r--r-- 1 root root   4416 Jan  1 10:54 cbtime.mod
+-rwxr-xr-x 1 root root   2584 Jan  1 10:54 cbtime.module
+-rw-r--r-- 1 root root   8256 Jan  1 10:54 chain.mod
+-rwxr-xr-x 1 root root   4336 Jan  1 10:54 chain.module
+-rw-r--r-- 1 root root   4496 Jan  1 10:54 cmdline_cat_test.mod
+-rwxr-xr-x 1 root root   1800 Jan  1 10:54 cmdline_cat_test.module
+-rw-r--r-- 1 root root   3328 Jan  1 10:54 cmp.mod
+-rwxr-xr-x 1 root root   1768 Jan  1 10:54 cmp.module
+-rw-r--r-- 1 root root   6656 Jan  1 10:54 cmp_test.mod
+-rwxr-xr-x 1 root root   3712 Jan  1 10:54 cmp_test.module
+-rw-r--r-- 1 root root   3691 Jan  1 10:54 command.lst
+-rw-r--r-- 1 root root   3168 Jan  1 10:54 configfile.mod
+-rwxr-xr-x 1 root root   1544 Jan  1 10:54 configfile.module
+-rw-r--r-- 1 root root   4288 Jan  1 10:54 cpio.mod
+-rwxr-xr-x 1 root root   2088 Jan  1 10:54 cpio.module
+-rw-r--r-- 1 root root   4288 Jan  1 10:54 cpio_be.mod
+-rwxr-xr-x 1 root root   2088 Jan  1 10:54 cpio_be.module
+-rw-r--r-- 1 root root   2480 Jan  1 10:54 cpuid.mod
+-rwxr-xr-x 1 root root   1248 Jan  1 10:54 cpuid.module
+-rw-r--r-- 1 root root   2032 Jan  1 10:54 crc64.mod
+-rwxr-xr-x 1 root root   1072 Jan  1 10:54 crc64.module
+-rw-r--r-- 1 root root    936 Jan  1 10:54 crypto.lst
+-rw-r--r-- 1 root root   6968 Jan  1 10:54 crypto.mod
+-rwxr-xr-x 1 root root   3672 Jan  1 10:54 crypto.module
+-rw-r--r-- 1 root root  22704 Jan  1 10:54 cryptodisk.mod
+-rwxr-xr-x 1 root root  12360 Jan  1 10:54 cryptodisk.module
+-rw-r--r-- 1 root root   3840 Jan  1 10:54 cs5536.mod
+-rwxr-xr-x 1 root root   2584 Jan  1 10:54 cs5536.module
+-rw-r--r-- 1 root root   2544 Jan  1 10:54 ctz_test.mod
+-rwxr-xr-x 1 root root   1520 Jan  1 10:54 ctz_test.module
+-rw-r--r-- 1 root root   3104 Jan  1 10:54 date.mod
+-rwxr-xr-x 1 root root   1720 Jan  1 10:54 date.module
+-rw-r--r-- 1 root root   2912 Jan  1 10:54 datehook.mod
+-rwxr-xr-x 1 root root   1328 Jan  1 10:54 datehook.module
+-rw-r--r-- 1 root root   2816 Jan  1 10:54 datetime.mod
+-rwxr-xr-x 1 root root   1656 Jan  1 10:54 datetime.module
+-rw-r--r-- 1 root root   3000 Jan  1 10:54 disk.mod
+-rwxr-xr-x 1 root root   1736 Jan  1 10:54 disk.module
+-rw-r--r-- 1 root root  12992 Jan  1 10:54 diskfilter.mod
+-rwxr-xr-x 1 root root   7680 Jan  1 10:54 diskfilter.module
+-rw-r--r-- 1 root root   1256 Jan  1 10:54 div.mod
+-rwxr-xr-x 1 root root    784 Jan  1 10:54 div.module
+-rw-r--r-- 1 root root   8064 Jan  1 10:54 div_test.mod
+-rwxr-xr-x 1 root root   4360 Jan  1 10:54 div_test.module
+-rw-r--r-- 1 root root   2712 Jan  1 10:54 dm_nv.mod
+-rwxr-xr-x 1 root root   1312 Jan  1 10:54 dm_nv.module
+-rw-r--r-- 1 root root   2944 Jan  1 10:54 echo.mod
+-rwxr-xr-x 1 root root   1536 Jan  1 10:54 echo.module
+-rw-r--r-- 1 root root  12624 Jan  1 10:54 efi_gop.mod
+-rwxr-xr-x 1 root root   5584 Jan  1 10:54 efi_gop.module
+-rw-r--r-- 1 root root   6888 Jan  1 10:54 efi_uga.mod
+-rwxr-xr-x 1 root root   2608 Jan  1 10:54 efi_uga.module
+-rw-r--r-- 1 root root   2584 Jan  1 10:54 efifwsetup.mod
+-rwxr-xr-x 1 root root   1296 Jan  1 10:54 efifwsetup.module
+-rw-r--r-- 1 root root   6464 Jan  1 10:54 efinet.mod
+-rwxr-xr-x 1 root root   3360 Jan  1 10:54 efinet.module
+-rw-r--r-- 1 root root   3664 Jan  1 10:54 efitextmode.mod
+-rwxr-xr-x 1 root root   2184 Jan  1 10:54 efitextmode.module
+-rw-r--r-- 1 root root  25656 Jan  1 10:54 ehci.mod
+-rwxr-xr-x 1 root root  14272 Jan  1 10:54 ehci.module
+-rw-r--r-- 1 root root   8856 Jan  1 10:54 elf.mod
+-rwxr-xr-x 1 root root   4728 Jan  1 10:54 elf.module
+-rw-r--r-- 1 root root   2104 Jan  1 10:54 eval.mod
+-rwxr-xr-x 1 root root   1024 Jan  1 10:54 eval.module
+-rw-r--r-- 1 root root   8632 Jan  1 10:54 exfat.mod
+-rwxr-xr-x 1 root root   5264 Jan  1 10:54 exfat.module
+-rw-r--r-- 1 root root   2056 Jan  1 10:54 exfctest.mod
+-rwxr-xr-x 1 root root   1104 Jan  1 10:54 exfctest.module
+-rw-r--r-- 1 root root   8752 Jan  1 10:54 ext2.mod
+-rwxr-xr-x 1 root root   4944 Jan  1 10:54 ext2.module
+-rw-r--r-- 1 root root   7544 Jan  1 10:54 extcmd.mod
+-rwxr-xr-x 1 root root   4240 Jan  1 10:54 extcmd.module
+-rw-r--r-- 1 root root   9984 Jan  1 10:54 f2fs.mod
+-rwxr-xr-x 1 root root   5936 Jan  1 10:54 f2fs.module
+-rw-r--r-- 1 root root   8664 Jan  1 10:54 fat.mod
+-rwxr-xr-x 1 root root   5424 Jan  1 10:54 fat.module
+-rw-r--r-- 1 root root      0 Jan  1 10:54 fdt.lst
+-rw-r--r-- 1 root root  26600 Jan  1 10:54 file.mod
+-rwxr-xr-x 1 root root  15336 Jan  1 10:54 file.module
+-rw-r--r-- 1 root root   2800 Jan  1 10:54 fixvideo.mod
+-rwxr-xr-x 1 root root   1480 Jan  1 10:54 fixvideo.module
+-rw-r--r-- 1 root root  19648 Jan  1 10:54 font.mod
+-rwxr-xr-x 1 root root  12024 Jan  1 10:54 font.module
+-rw-r--r-- 1 root root    219 Jan  1 10:54 fs.lst
+-rw-r--r-- 1 root root   4360 Jan  1 10:54 fshelp.mod
+-rwxr-xr-x 1 root root   2648 Jan  1 10:54 fshelp.module
+-rw-r--r-- 1 root root  46624 Jan  1 10:54 functional_test.mod
+-rwxr-xr-x 1 root root  30392 Jan  1 10:54 functional_test.module
+-rw-r--r-- 1 root root   2312 Jan  1 10:54 gcry_arcfour.mod
+-rwxr-xr-x 1 root root   1216 Jan  1 10:54 gcry_arcfour.module
+-rw-r--r-- 1 root root   9040 Jan  1 10:54 gcry_blowfish.mod
+-rwxr-xr-x 1 root root   7784 Jan  1 10:54 gcry_blowfish.module
+-rw-r--r-- 1 root root  27760 Jan  1 10:54 gcry_camellia.mod
+-rwxr-xr-x 1 root root  24552 Jan  1 10:54 gcry_camellia.module
+-rw-r--r-- 1 root root  14712 Jan  1 10:54 gcry_cast5.mod
+-rwxr-xr-x 1 root root  13256 Jan  1 10:54 gcry_cast5.module
+-rw-r--r-- 1 root root  11744 Jan  1 10:54 gcry_crc.mod
+-rwxr-xr-x 1 root root  10120 Jan  1 10:54 gcry_crc.module
+-rw-r--r-- 1 root root  16800 Jan  1 10:54 gcry_des.mod
+-rwxr-xr-x 1 root root  14536 Jan  1 10:54 gcry_des.module
+-rw-r--r-- 1 root root   3320 Jan  1 10:54 gcry_dsa.mod
+-rwxr-xr-x 1 root root   1624 Jan  1 10:54 gcry_dsa.module
+-rw-r--r-- 1 root root   3992 Jan  1 10:54 gcry_idea.mod
+-rwxr-xr-x 1 root root   2504 Jan  1 10:54 gcry_idea.module
+-rw-r--r-- 1 root root   4008 Jan  1 10:54 gcry_md4.mod
+-rwxr-xr-x 1 root root   2696 Jan  1 10:54 gcry_md4.module
+-rw-r--r-- 1 root root   4464 Jan  1 10:54 gcry_md5.mod
+-rwxr-xr-x 1 root root   3128 Jan  1 10:54 gcry_md5.module
+-rw-r--r-- 1 root root   3032 Jan  1 10:54 gcry_rfc2268.mod
+-rwxr-xr-x 1 root root   1960 Jan  1 10:54 gcry_rfc2268.module
+-rw-r--r-- 1 root root  20464 Jan  1 10:54 gcry_rijndael.mod
+-rwxr-xr-x 1 root root  17832 Jan  1 10:54 gcry_rijndael.module
+-rw-r--r-- 1 root root   7760 Jan  1 10:54 gcry_rmd160.mod
+-rwxr-xr-x 1 root root   6376 Jan  1 10:54 gcry_rmd160.module
+-rw-r--r-- 1 root root   3248 Jan  1 10:54 gcry_rsa.mod
+-rwxr-xr-x 1 root root   1504 Jan  1 10:54 gcry_rsa.module
+-rw-r--r-- 1 root root  15008 Jan  1 10:54 gcry_seed.mod
+-rwxr-xr-x 1 root root  11448 Jan  1 10:54 gcry_seed.module
+-rw-r--r-- 1 root root  16184 Jan  1 10:54 gcry_serpent.mod
+-rwxr-xr-x 1 root root  14448 Jan  1 10:54 gcry_serpent.module
+-rw-r--r-- 1 root root   8160 Jan  1 10:54 gcry_sha1.mod
+-rwxr-xr-x 1 root root   6816 Jan  1 10:54 gcry_sha1.module
+-rw-r--r-- 1 root root   5440 Jan  1 10:54 gcry_sha256.mod
+-rwxr-xr-x 1 root root   3440 Jan  1 10:54 gcry_sha256.module
+-rw-r--r-- 1 root root   6232 Jan  1 10:54 gcry_sha512.mod
+-rwxr-xr-x 1 root root   4256 Jan  1 10:54 gcry_sha512.module
+-rw-r--r-- 1 root root  13760 Jan  1 10:54 gcry_tiger.mod
+-rwxr-xr-x 1 root root  11816 Jan  1 10:54 gcry_tiger.module
+-rw-r--r-- 1 root root  33280 Jan  1 10:54 gcry_twofish.mod
+-rwxr-xr-x 1 root root  30216 Jan  1 10:54 gcry_twofish.module
+-rw-r--r-- 1 root root  22816 Jan  1 10:54 gcry_whirlpool.mod
+-rwxr-xr-x 1 root root  20936 Jan  1 10:54 gcry_whirlpool.module
+-rw-r--r-- 1 root root   3516 Jan  1 10:54 gdb_grub
+-rw-r--r-- 1 root root   6289 Jan  1 10:54 gdb_helper.py
+-rw-r--r-- 1 root root   8720 Jan  1 10:54 geli.mod
+-rwxr-xr-x 1 root root   4320 Jan  1 10:54 geli.module
+-rw-r--r-- 1 root root   8296 Jan  1 10:54 gettext.mod
+-rwxr-xr-x 1 root root   3984 Jan  1 10:54 gettext.module
+-rw-r--r-- 1 root root  60008 Jan  1 10:54 gfxmenu.mod
+-rwxr-xr-x 1 root root  35232 Jan  1 10:54 gfxmenu.module
+-rw-r--r-- 1 root root  16864 Jan  1 10:54 gfxterm.mod
+-rwxr-xr-x 1 root root   7024 Jan  1 10:54 gfxterm.module
+-rw-r--r-- 1 root root   4336 Jan  1 10:54 gfxterm_background.mod
+-rwxr-xr-x 1 root root   1856 Jan  1 10:54 gfxterm_background.module
+-rw-r--r-- 1 root root   7648 Jan  1 10:54 gfxterm_menu.mod
+-rwxr-xr-x 1 root root   3304 Jan  1 10:54 gfxterm_menu.module
+-rw-r--r-- 1 root root   5288 Jan  1 10:54 gptsync.mod
+-rwxr-xr-x 1 root root   2856 Jan  1 10:54 gptsync.module
+-rw-r--r-- 1 root root  12816 Jan  1 10:54 gzio.mod
+-rwxr-xr-x 1 root root   8600 Jan  1 10:54 gzio.module
+-rw-r--r-- 1 root root   7432 Jan  1 10:54 halt.mod
+-rwxr-xr-x 1 root root   3792 Jan  1 10:54 halt.module
+-rw-r--r-- 1 root root   8352 Jan  1 10:54 hashsum.mod
+-rwxr-xr-x 1 root root   4176 Jan  1 10:54 hashsum.module
+-rw-r--r-- 1 root root  10456 Jan  1 10:54 hdparm.mod
+-rwxr-xr-x 1 root root   5840 Jan  1 10:54 hdparm.module
+-rw-r--r-- 1 root root   1768 Jan  1 10:54 hello.mod
+-rwxr-xr-x 1 root root    864 Jan  1 10:54 hello.module
+-rw-r--r-- 1 root root   3960 Jan  1 10:54 help.mod
+-rwxr-xr-x 1 root root   1840 Jan  1 10:54 help.module
+-rw-r--r-- 1 root root   4392 Jan  1 10:54 hexdump.mod
+-rwxr-xr-x 1 root root   2288 Jan  1 10:54 hexdump.module
+-rw-r--r-- 1 root root  10200 Jan  1 10:54 hfs.mod
+-rwxr-xr-x 1 root root   6360 Jan  1 10:54 hfs.module
+-rw-r--r-- 1 root root  11392 Jan  1 10:54 hfsplus.mod
+-rwxr-xr-x 1 root root   6864 Jan  1 10:54 hfsplus.module
+-rw-r--r-- 1 root root   4152 Jan  1 10:54 hfspluscomp.mod
+-rwxr-xr-x 1 root root   2344 Jan  1 10:54 hfspluscomp.module
+-rw-r--r-- 1 root root   9280 Jan  1 10:54 http.mod
+-rwxr-xr-x 1 root root   4768 Jan  1 10:54 http.module
+-rw-r--r-- 1 root root   4240 Jan  1 10:54 iorw.mod
+-rwxr-xr-x 1 root root   2128 Jan  1 10:54 iorw.module
+-rw-r--r-- 1 root root  13264 Jan  1 10:54 iso9660.mod
+-rwxr-xr-x 1 root root   8176 Jan  1 10:54 iso9660.module
+-rw-r--r-- 1 root root   8936 Jan  1 10:54 jfs.mod
+-rwxr-xr-x 1 root root   5328 Jan  1 10:54 jfs.module
+-rw-r--r-- 1 root root  11064 Jan  1 10:54 jpeg.mod
+-rwxr-xr-x 1 root root   6864 Jan  1 10:54 jpeg.module
+-rw-r--r-- 1 root root   5744 Jan  1 10:54 json.mod
+-rwxr-xr-x 1 root root   3816 Jan  1 10:54 json.module
+-rwxr-xr-x 1 root root  64216 Jan  1 10:54 kernel.exec
+-rw-r--r-- 1 root root 118992 Jan  1 10:54 kernel.img
+-rw-r--r-- 1 root root   6304 Jan  1 10:54 keylayouts.mod
+-rwxr-xr-x 1 root root   4384 Jan  1 10:54 keylayouts.module
+-rw-r--r-- 1 root root   2872 Jan  1 10:54 keystatus.mod
+-rwxr-xr-x 1 root root   1472 Jan  1 10:54 keystatus.module
+-rw-r--r-- 1 root root   8184 Jan  1 10:54 ldm.mod
+-rwxr-xr-x 1 root root   5096 Jan  1 10:54 ldm.module
+-rw-r--r-- 1 root root  15816 Jan  1 10:54 legacy_password_test.mod
+-rwxr-xr-x 1 root root  14024 Jan  1 10:54 legacy_password_test.module
+-rw-r--r-- 1 root root  45440 Jan  1 10:54 legacycfg.mod
+-rwxr-xr-x 1 root root  27936 Jan  1 10:54 legacycfg.module
+-rw-r--r-- 1 root root  28408 Jan  1 10:54 linux.mod
+-rwxr-xr-x 1 root root  14160 Jan  1 10:54 linux.module
+-rw-r--r-- 1 root root   8544 Jan  1 10:54 linux16.mod
+-rwxr-xr-x 1 root root   4056 Jan  1 10:54 linux16.module
+-rw-r--r-- 1 root root   4488 Jan  1 10:54 loadbios.mod
+-rwxr-xr-x 1 root root   2256 Jan  1 10:54 loadbios.module
+-rw-r--r-- 1 root root   9064 Jan  1 10:54 loadenv.mod
+-rwxr-xr-x 1 root root   4888 Jan  1 10:54 loadenv.module
+-rw-r--r-- 1 root root   4896 Jan  1 10:54 loopback.mod
+-rwxr-xr-x 1 root root   2376 Jan  1 10:54 loopback.module
+-rw-r--r-- 1 root root   6400 Jan  1 10:54 ls.mod
+-rwxr-xr-x 1 root root   2832 Jan  1 10:54 ls.module
+-rw-r--r-- 1 root root   7104 Jan  1 10:54 lsacpi.mod
+-rwxr-xr-x 1 root root   3920 Jan  1 10:54 lsacpi.module
+-rw-r--r-- 1 root root   5032 Jan  1 10:54 lsefi.mod
+-rwxr-xr-x 1 root root   2744 Jan  1 10:54 lsefi.module
+-rw-r--r-- 1 root root   3600 Jan  1 10:54 lsefimmap.mod
+-rwxr-xr-x 1 root root   2000 Jan  1 10:54 lsefimmap.module
+-rw-r--r-- 1 root root   4520 Jan  1 10:54 lsefisystab.mod
+-rwxr-xr-x 1 root root   2560 Jan  1 10:54 lsefisystab.module
+-rw-r--r-- 1 root root   2832 Jan  1 10:54 lsmmap.mod
+-rwxr-xr-x 1 root root   1496 Jan  1 10:54 lsmmap.module
+-rw-r--r-- 1 root root   7152 Jan  1 10:54 lspci.mod
+-rwxr-xr-x 1 root root   4048 Jan  1 10:54 lspci.module
+-rw-r--r-- 1 root root   3632 Jan  1 10:54 lssal.mod
+-rwxr-xr-x 1 root root   2072 Jan  1 10:54 lssal.module
+-rw-r--r-- 1 root root   5968 Jan  1 10:54 luks.mod
+-rwxr-xr-x 1 root root   2912 Jan  1 10:54 luks.module
+-rw-r--r-- 1 root root  20744 Jan  1 10:54 luks2.mod
+-rwxr-xr-x 1 root root  11784 Jan  1 10:54 luks2.module
+-rw-r--r-- 1 root root  12400 Jan  1 10:54 lvm.mod
+-rwxr-xr-x 1 root root   7584 Jan  1 10:54 lvm.module
+-rw-r--r-- 1 root root   6744 Jan  1 10:54 lzopio.mod
+-rwxr-xr-x 1 root root   4312 Jan  1 10:54 lzopio.module
+-rw-r--r-- 1 root root   4840 Jan  1 10:54 macbless.mod
+-rwxr-xr-x 1 root root   2448 Jan  1 10:54 macbless.module
+-rw-r--r-- 1 root root  10704 Jan  1 10:54 macho.mod
+-rwxr-xr-x 1 root root   6256 Jan  1 10:54 macho.module
+-rw-r--r-- 1 root root   2704 Jan  1 10:54 mdraid09.mod
+-rwxr-xr-x 1 root root   1344 Jan  1 10:54 mdraid09.module
+-rw-r--r-- 1 root root   2712 Jan  1 10:54 mdraid09_be.mod
+-rwxr-xr-x 1 root root   1376 Jan  1 10:54 mdraid09_be.module
+-rw-r--r-- 1 root root   2592 Jan  1 10:54 mdraid1x.mod
+-rwxr-xr-x 1 root root   1344 Jan  1 10:54 mdraid1x.module
+-rw-r--r-- 1 root root   3096 Jan  1 10:54 memdisk.mod
+-rwxr-xr-x 1 root root   1472 Jan  1 10:54 memdisk.module
+-rw-r--r-- 1 root root   4200 Jan  1 10:54 memrw.mod
+-rwxr-xr-x 1 root root   2112 Jan  1 10:54 memrw.module
+-rw-r--r-- 1 root root   5832 Jan  1 10:54 minicmd.mod
+-rwxr-xr-x 1 root root   2656 Jan  1 10:54 minicmd.module
+-rw-r--r-- 1 root root   5568 Jan  1 10:54 minix.mod
+-rwxr-xr-x 1 root root   3280 Jan  1 10:54 minix.module
+-rw-r--r-- 1 root root   5688 Jan  1 10:54 minix2.mod
+-rwxr-xr-x 1 root root   3376 Jan  1 10:54 minix2.module
+-rw-r--r-- 1 root root   5760 Jan  1 10:54 minix2_be.mod
+-rwxr-xr-x 1 root root   3440 Jan  1 10:54 minix2_be.module
+-rw-r--r-- 1 root root   5752 Jan  1 10:54 minix3.mod
+-rwxr-xr-x 1 root root   3440 Jan  1 10:54 minix3.module
+-rw-r--r-- 1 root root   5824 Jan  1 10:54 minix3_be.mod
+-rwxr-xr-x 1 root root   3504 Jan  1 10:54 minix3_be.module
+-rw-r--r-- 1 root root   5664 Jan  1 10:54 minix_be.mod
+-rwxr-xr-x 1 root root   3376 Jan  1 10:54 minix_be.module
+-rw-r--r-- 1 root root   9128 Jan  1 10:54 mmap.mod
+-rwxr-xr-x 1 root root   4944 Jan  1 10:54 mmap.module
+-rw-r--r-- 1 root root   5293 Jan  1 10:54 moddep.lst
+-rw-r--r-- 1 root root   2724 Jan  1 10:54 modinfo.sh
+-rw-r--r-- 1 root root   3152 Jan  1 10:54 morse.mod
+-rwxr-xr-x 1 root root   1976 Jan  1 10:54 morse.module
+-rw-r--r-- 1 root root  44192 Jan  1 10:54 mpi.mod
+-rwxr-xr-x 1 root root  27560 Jan  1 10:54 mpi.module
+-rw-r--r-- 1 root root   3592 Jan  1 10:54 msdospart.mod
+-rwxr-xr-x 1 root root   1880 Jan  1 10:54 msdospart.module
+-rw-r--r-- 1 root root   2360 Jan  1 10:54 mul_test.mod
+-rwxr-xr-x 1 root root   1384 Jan  1 10:54 mul_test.module
+-rw-r--r-- 1 root root  21992 Jan  1 10:54 multiboot.mod
+-rwxr-xr-x 1 root root  10960 Jan  1 10:54 multiboot.module
+-rw-r--r-- 1 root root  24944 Jan  1 10:54 multiboot2.mod
+-rwxr-xr-x 1 root root  12592 Jan  1 10:54 multiboot2.module
+-rw-r--r-- 1 root root   6624 Jan  1 10:54 nativedisk.mod
+-rwxr-xr-x 1 root root   3120 Jan  1 10:54 nativedisk.module
+-rw-r--r-- 1 root root  82432 Jan  1 10:54 net.mod
+-rwxr-xr-x 1 root root  47088 Jan  1 10:54 net.module
+-rw-r--r-- 1 root root   4464 Jan  1 10:54 newc.mod
+-rwxr-xr-x 1 root root   2216 Jan  1 10:54 newc.module
+-rw-r--r-- 1 root root  10016 Jan  1 10:54 nilfs2.mod
+-rwxr-xr-x 1 root root   5616 Jan  1 10:54 nilfs2.module
+-rw-r--r-- 1 root root 176296 Jan  1 10:54 normal.mod
+-rwxr-xr-x 1 root root 106616 Jan  1 10:54 normal.module
+-rw-r--r-- 1 root root  16048 Jan  1 10:54 ntfs.mod
+-rwxr-xr-x 1 root root   9712 Jan  1 10:54 ntfs.module
+-rw-r--r-- 1 root root   5576 Jan  1 10:54 ntfscomp.mod
+-rwxr-xr-x 1 root root   3584 Jan  1 10:54 ntfscomp.module
+-rw-r--r-- 1 root root   4288 Jan  1 10:54 odc.mod
+-rwxr-xr-x 1 root root   2088 Jan  1 10:54 odc.module
+-rw-r--r-- 1 root root   2160 Jan  1 10:54 offsetio.mod
+-rwxr-xr-x 1 root root   1168 Jan  1 10:54 offsetio.module
+-rw-r--r-- 1 root root  15624 Jan  1 10:54 ohci.mod
+-rwxr-xr-x 1 root root   8672 Jan  1 10:54 ohci.module
+-rw-r--r-- 1 root root   2208 Jan  1 10:54 part_acorn.mod
+-rwxr-xr-x 1 root root   1216 Jan  1 10:54 part_acorn.module
+-rw-r--r-- 1 root root   2576 Jan  1 10:54 part_amiga.mod
+-rwxr-xr-x 1 root root   1408 Jan  1 10:54 part_amiga.module
+-rw-r--r-- 1 root root   2952 Jan  1 10:54 part_apple.mod
+-rwxr-xr-x 1 root root   1632 Jan  1 10:54 part_apple.module
+-rw-r--r-- 1 root root   4160 Jan  1 10:54 part_bsd.mod
+-rwxr-xr-x 1 root root   2144 Jan  1 10:54 part_bsd.module
+-rw-r--r-- 1 root root   2600 Jan  1 10:54 part_dfly.mod
+-rwxr-xr-x 1 root root   1376 Jan  1 10:54 part_dfly.module
+-rw-r--r-- 1 root root   2128 Jan  1 10:54 part_dvh.mod
+-rwxr-xr-x 1 root root   1120 Jan  1 10:54 part_dvh.module
+-rw-r--r-- 1 root root   3184 Jan  1 10:54 part_gpt.mod
+-rwxr-xr-x 1 root root   1712 Jan  1 10:54 part_gpt.module
+-rw-r--r-- 1 root root   2944 Jan  1 10:54 part_msdos.mod
+-rwxr-xr-x 1 root root   1664 Jan  1 10:54 part_msdos.module
+-rw-r--r-- 1 root root   2416 Jan  1 10:54 part_plan.mod
+-rwxr-xr-x 1 root root   1344 Jan  1 10:54 part_plan.module
+-rw-r--r-- 1 root root   2160 Jan  1 10:54 part_sun.mod
+-rwxr-xr-x 1 root root   1152 Jan  1 10:54 part_sun.module
+-rw-r--r-- 1 root root   2416 Jan  1 10:54 part_sunpc.mod
+-rwxr-xr-x 1 root root   1216 Jan  1 10:54 part_sunpc.module
+-rw-r--r-- 1 root root    111 Jan  1 10:54 partmap.lst
+-rw-r--r-- 1 root root     17 Jan  1 10:54 parttool.lst
+-rw-r--r-- 1 root root   7448 Jan  1 10:54 parttool.mod
+-rwxr-xr-x 1 root root   3688 Jan  1 10:54 parttool.module
+-rw-r--r-- 1 root root   2864 Jan  1 10:54 password.mod
+-rwxr-xr-x 1 root root   1240 Jan  1 10:54 password.module
+-rw-r--r-- 1 root root   4416 Jan  1 10:54 password_pbkdf2.mod
+-rwxr-xr-x 1 root root   2072 Jan  1 10:54 password_pbkdf2.module
+-rw-r--r-- 1 root root   7416 Jan  1 10:54 pata.mod
+-rwxr-xr-x 1 root root   4112 Jan  1 10:54 pata.module
+-rw-r--r-- 1 root root   1896 Jan  1 10:54 pbkdf2.mod
+-rwxr-xr-x 1 root root   1168 Jan  1 10:54 pbkdf2.module
+-rw-r--r-- 1 root root   3352 Jan  1 10:54 pbkdf2_test.mod
+-rwxr-xr-x 1 root root   1728 Jan  1 10:54 pbkdf2_test.module
+-rw-r--r-- 1 root root   3424 Jan  1 10:54 pcidump.mod
+-rwxr-xr-x 1 root root   1896 Jan  1 10:54 pcidump.module
+-rw-r--r-- 1 root root  19120 Jan  1 10:54 pgp.mod
+-rwxr-xr-x 1 root root   9704 Jan  1 10:54 pgp.module
+-rw-r--r-- 1 root root  11112 Jan  1 10:54 plainmount.mod
+-rwxr-xr-x 1 root root   6064 Jan  1 10:54 plainmount.module
+-rw-r--r-- 1 root root   3856 Jan  1 10:54 play.mod
+-rwxr-xr-x 1 root root   1984 Jan  1 10:54 play.module
+-rw-r--r-- 1 root root  11056 Jan  1 10:54 png.mod
+-rwxr-xr-x 1 root root   7152 Jan  1 10:54 png.module
+-rw-r--r-- 1 root root   2192 Jan  1 10:54 priority_queue.mod
+-rwxr-xr-x 1 root root   1240 Jan  1 10:54 priority_queue.module
+-rw-r--r-- 1 root root   5624 Jan  1 10:54 probe.mod
+-rwxr-xr-x 1 root root   2856 Jan  1 10:54 probe.module
+-rw-r--r-- 1 root root   3712 Jan  1 10:54 procfs.mod
+-rwxr-xr-x 1 root root   1592 Jan  1 10:54 procfs.module
+-rw-r--r-- 1 root root   3072 Jan  1 10:54 progress.mod
+-rwxr-xr-x 1 root root   1520 Jan  1 10:54 progress.module
+-rw-r--r-- 1 root root   1880 Jan  1 10:54 raid5rec.mod
+-rwxr-xr-x 1 root root    992 Jan  1 10:54 raid5rec.module
+-rw-r--r-- 1 root root   3168 Jan  1 10:54 raid6rec.mod
+-rwxr-xr-x 1 root root   1824 Jan  1 10:54 raid6rec.module
+-rw-r--r-- 1 root root   3600 Jan  1 10:54 random.mod
+-rwxr-xr-x 1 root root   1696 Jan  1 10:54 random.module
+-rw-r--r-- 1 root root   3008 Jan  1 10:54 rdmsr.mod
+-rwxr-xr-x 1 root root   1512 Jan  1 10:54 rdmsr.module
+-rw-r--r-- 1 root root   2672 Jan  1 10:54 read.mod
+-rwxr-xr-x 1 root root   1288 Jan  1 10:54 read.module
+-rw-r--r-- 1 root root   1528 Jan  1 10:54 reboot.mod
+-rwxr-xr-x 1 root root    808 Jan  1 10:54 reboot.module
+-rw-r--r-- 1 root root  79192 Jan  1 10:54 regexp.mod
+-rwxr-xr-x 1 root root  55256 Jan  1 10:54 regexp.module
+-rw-r--r-- 1 root root  13880 Jan  1 10:54 reiserfs.mod
+-rwxr-xr-x 1 root root   7864 Jan  1 10:54 reiserfs.module
+-rw-r--r-- 1 root root  26720 Jan  1 10:54 relocator.mod
+-rwxr-xr-x 1 root root  14640 Jan  1 10:54 relocator.module
+-rw-r--r-- 1 root root   5624 Jan  1 10:54 romfs.mod
+-rwxr-xr-x 1 root root   3248 Jan  1 10:54 romfs.module
+-rw-r--r-- 1 root root   7080 Jan  1 10:54 scsi.mod
+-rwxr-xr-x 1 root root   3848 Jan  1 10:54 scsi.module
+-rw-r--r-- 1 root root   5464 Jan  1 10:54 search.mod
+-rwxr-xr-x 1 root root   3184 Jan  1 10:54 search.module
+-rw-r--r-- 1 root root   4840 Jan  1 10:54 search_fs_file.mod
+-rwxr-xr-x 1 root root   2368 Jan  1 10:54 search_fs_file.module
+-rw-r--r-- 1 root root   4904 Jan  1 10:54 search_fs_uuid.mod
+-rwxr-xr-x 1 root root   2480 Jan  1 10:54 search_fs_uuid.module
+-rw-r--r-- 1 root root   4856 Jan  1 10:54 search_label.mod
+-rwxr-xr-x 1 root root   2400 Jan  1 10:54 search_label.module
+-rw-r--r-- 1 root root  17976 Jan  1 10:54 serial.mod
+-rwxr-xr-x 1 root root   9048 Jan  1 10:54 serial.module
+-rw-r--r-- 1 root root    912 Jan  1 10:54 setjmp.mod
+-rwxr-xr-x 1 root root    664 Jan  1 10:54 setjmp.module
+-rw-r--r-- 1 root root   2520 Jan  1 10:54 setjmp_test.mod
+-rwxr-xr-x 1 root root   1240 Jan  1 10:54 setjmp_test.module
+-rw-r--r-- 1 root root   8152 Jan  1 10:54 setpci.mod
+-rwxr-xr-x 1 root root   4208 Jan  1 10:54 setpci.module
+-rw-r--r-- 1 root root   7760 Jan  1 10:54 sfs.mod
+-rwxr-xr-x 1 root root   4336 Jan  1 10:54 sfs.module
+-rw-r--r-- 1 root root   3064 Jan  1 10:54 shift_test.mod
+-rwxr-xr-x 1 root root   1888 Jan  1 10:54 shift_test.module
+-rw-r--r-- 1 root root   8200 Jan  1 10:54 signature_test.mod
+-rwxr-xr-x 1 root root   5448 Jan  1 10:54 signature_test.module
+-rw-r--r-- 1 root root   3272 Jan  1 10:54 sleep.mod
+-rwxr-xr-x 1 root root   1512 Jan  1 10:54 sleep.module
+-rw-r--r-- 1 root root   3176 Jan  1 10:54 sleep_test.mod
+-rwxr-xr-x 1 root root   1864 Jan  1 10:54 sleep_test.module
+-rw-r--r-- 1 root root   8192 Jan  1 10:54 smbios.mod
+-rwxr-xr-x 1 root root   4344 Jan  1 10:54 smbios.module
+-rw-r--r-- 1 root root   3000 Jan  1 10:54 spkmodem.mod
+-rwxr-xr-x 1 root root   1304 Jan  1 10:54 spkmodem.module
+-rw-r--r-- 1 root root  10080 Jan  1 10:54 squash4.mod
+-rwxr-xr-x 1 root root   6032 Jan  1 10:54 squash4.module
+-rw-r--r-- 1 root root   3176 Jan  1 10:54 strtoull_test.mod
+-rwxr-xr-x 1 root root   1760 Jan  1 10:54 strtoull_test.module
+-rw-r--r-- 1 root root  29704 Jan  1 10:54 syslinuxcfg.mod
+-rwxr-xr-x 1 root root  16632 Jan  1 10:54 syslinuxcfg.module
+-rw-r--r-- 1 root root   4864 Jan  1 10:54 tar.mod
+-rwxr-xr-x 1 root root   2568 Jan  1 10:54 tar.module
+-rw-r--r-- 1 root root    162 Jan  1 10:54 terminal.lst
+-rw-r--r-- 1 root root   6584 Jan  1 10:54 terminal.mod
+-rwxr-xr-x 1 root root   3368 Jan  1 10:54 terminal.module
+-rw-r--r-- 1 root root  19328 Jan  1 10:54 terminfo.mod
+-rwxr-xr-x 1 root root  10136 Jan  1 10:54 terminfo.module
+-rw-r--r-- 1 root root   7416 Jan  1 10:54 test.mod
+-rwxr-xr-x 1 root root   4096 Jan  1 10:54 test.module
+-rw-r--r-- 1 root root   1960 Jan  1 10:54 test_blockarg.mod
+-rwxr-xr-x 1 root root    952 Jan  1 10:54 test_blockarg.module
+-rw-r--r-- 1 root root   3792 Jan  1 10:54 testload.mod
+-rwxr-xr-x 1 root root   1840 Jan  1 10:54 testload.module
+-rw-r--r-- 1 root root   3416 Jan  1 10:54 testspeed.mod
+-rwxr-xr-x 1 root root   1584 Jan  1 10:54 testspeed.module
+-rw-r--r-- 1 root root   7896 Jan  1 10:54 tftp.mod
+-rwxr-xr-x 1 root root   3880 Jan  1 10:54 tftp.module
+-rw-r--r-- 1 root root   6832 Jan  1 10:54 tga.mod
+-rwxr-xr-x 1 root root   3800 Jan  1 10:54 tga.module
+-rw-r--r-- 1 root root   2288 Jan  1 10:54 time.mod
+-rwxr-xr-x 1 root root   1128 Jan  1 10:54 time.module
+-rw-r--r-- 1 root root   8144 Jan  1 10:54 tpm.mod
+-rwxr-xr-x 1 root root   3976 Jan  1 10:54 tpm.module
+-rw-r--r-- 1 root root   3648 Jan  1 10:54 tr.mod
+-rwxr-xr-x 1 root root   1856 Jan  1 10:54 tr.module
+-rw-r--r-- 1 root root   1936 Jan  1 10:54 trig.mod
+-rwxr-xr-x 1 root root   1688 Jan  1 10:54 trig.module
+-rw-r--r-- 1 root root   1800 Jan  1 10:54 true.mod
+-rwxr-xr-x 1 root root    936 Jan  1 10:54 true.module
+-rw-r--r-- 1 root root  12680 Jan  1 10:54 udf.mod
+-rwxr-xr-x 1 root root   7848 Jan  1 10:54 udf.module
+-rw-r--r-- 1 root root   7816 Jan  1 10:54 ufs1.mod
+-rwxr-xr-x 1 root root   4296 Jan  1 10:54 ufs1.module
+-rw-r--r-- 1 root root   7976 Jan  1 10:54 ufs1_be.mod
+-rwxr-xr-x 1 root root   4456 Jan  1 10:54 ufs1_be.module
+-rw-r--r-- 1 root root   7848 Jan  1 10:54 ufs2.mod
+-rwxr-xr-x 1 root root   4328 Jan  1 10:54 ufs2.module
+-rw-r--r-- 1 root root   9992 Jan  1 10:54 uhci.mod
+-rwxr-xr-x 1 root root   5504 Jan  1 10:54 uhci.module
+-rw-r--r-- 1 root root  15680 Jan  1 10:54 usb.mod
+-rwxr-xr-x 1 root root   9136 Jan  1 10:54 usb.module
+-rw-r--r-- 1 root root   5712 Jan  1 10:54 usb_keyboard.mod
+-rwxr-xr-x 1 root root   2896 Jan  1 10:54 usb_keyboard.module
+-rw-r--r-- 1 root root  10784 Jan  1 10:54 usbms.mod
+-rwxr-xr-x 1 root root   5808 Jan  1 10:54 usbms.module
+-rw-r--r-- 1 root root   2768 Jan  1 10:54 usbserial_common.mod
+-rwxr-xr-x 1 root root   1520 Jan  1 10:54 usbserial_common.module
+-rw-r--r-- 1 root root   3328 Jan  1 10:54 usbserial_ftdi.mod
+-rwxr-xr-x 1 root root   1704 Jan  1 10:54 usbserial_ftdi.module
+-rw-r--r-- 1 root root   3688 Jan  1 10:54 usbserial_pl2303.mod
+-rwxr-xr-x 1 root root   2088 Jan  1 10:54 usbserial_pl2303.module
+-rw-r--r-- 1 root root   2240 Jan  1 10:54 usbserial_usbdebug.mod
+-rwxr-xr-x 1 root root    912 Jan  1 10:54 usbserial_usbdebug.module
+-rw-r--r-- 1 root root   5568 Jan  1 10:54 usbtest.mod
+-rwxr-xr-x 1 root root   2976 Jan  1 10:54 usbtest.module
+-rw-r--r-- 1 root root     41 Jan  1 10:54 video.lst
+-rw-r--r-- 1 root root   8800 Jan  1 10:54 video.mod
+-rwxr-xr-x 1 root root   3992 Jan  1 10:54 video.module
+-rw-r--r-- 1 root root   8288 Jan  1 10:54 video_bochs.mod
+-rwxr-xr-x 1 root root   3504 Jan  1 10:54 video_bochs.module
+-rw-r--r-- 1 root root   8880 Jan  1 10:54 video_cirrus.mod
+-rwxr-xr-x 1 root root   4024 Jan  1 10:54 video_cirrus.module
+-rw-r--r-- 1 root root  10064 Jan  1 10:54 video_colors.mod
+-rwxr-xr-x 1 root root   5472 Jan  1 10:54 video_colors.module
+-rw-r--r-- 1 root root  29768 Jan  1 10:54 video_fb.mod
+-rwxr-xr-x 1 root root  20056 Jan  1 10:54 video_fb.module
+-rw-r--r-- 1 root root   5400 Jan  1 10:54 videoinfo.mod
+-rwxr-xr-x 1 root root   2832 Jan  1 10:54 videoinfo.module
+-rw-r--r-- 1 root root   5408 Jan  1 10:54 videotest.mod
+-rwxr-xr-x 1 root root   2656 Jan  1 10:54 videotest.module
+-rw-r--r-- 1 root root   3584 Jan  1 10:54 videotest_checksum.mod
+-rwxr-xr-x 1 root root   1448 Jan  1 10:54 videotest_checksum.module
+-rw-r--r-- 1 root root   2336 Jan  1 10:54 wrmsr.mod
+-rwxr-xr-x 1 root root   1240 Jan  1 10:54 wrmsr.module
+-rw-r--r-- 1 root root  11168 Jan  1 10:54 xfs.mod
+-rwxr-xr-x 1 root root   6384 Jan  1 10:54 xfs.module
+-rw-r--r-- 1 root root  42184 Jan  1 10:54 xnu.mod
+-rwxr-xr-x 1 root root  20984 Jan  1 10:54 xnu.module
+-rw-r--r-- 1 root root   3200 Jan  1 10:54 xnu_uuid.mod
+-rwxr-xr-x 1 root root   1552 Jan  1 10:54 xnu_uuid.module
+-rw-r--r-- 1 root root   3024 Jan  1 10:54 xnu_uuid_test.mod
+-rwxr-xr-x 1 root root   1432 Jan  1 10:54 xnu_uuid_test.module
+-rw-r--r-- 1 root root  19688 Jan  1 10:54 xzio.mod
+-rwxr-xr-x 1 root root  14520 Jan  1 10:54 xzio.module
+-rw-r--r-- 1 root root  58296 Jan  1 10:54 zfs.mod
+-rwxr-xr-x 1 root root  35736 Jan  1 10:54 zfs.module
+-rw-r--r-- 1 root root   8488 Jan  1 10:54 zfscrypt.mod
+-rwxr-xr-x 1 root root   4560 Jan  1 10:54 zfscrypt.module
+-rw-r--r-- 1 root root  10424 Jan  1 10:54 zfsinfo.mod
+-rwxr-xr-x 1 root root   5064 Jan  1 10:54 zfsinfo.module
+-rw-r--r-- 1 root root  81056 Jan  1 10:54 zstd.mod
+-rwxr-xr-x 1 root root  56296 Jan  1 10:54 zstd.module
