@@ -242,6 +242,9 @@ create_image_iso() {
 	local _isolinux
 	local _efiboot
 
+    echo "Creating squashfs root filesystem...."
+    mksquashf "$DESTDIR" "$OUTDIR/rootfs.squashfs" -comp xz -Xbcj x86
+
     printf "BREAKPOINT BEFORE IMAGE IS CREATED\n"
     printf "local IOS: $ISO\nOUTDIR: ${OUTDIR}\nDESTDIR: ${DESTDIR}\n"
     read
@@ -308,11 +311,12 @@ create_image_iso() {
 			-rational-rock \
 			-sysid LINUX \
 			-volid "$(gen_volid)" \
-			$_isolinux \
-			$_efiboot \
+			#$_isolinux \
+			#$_efiboot \
 			-follow-links \
 			${iso_opts} \
-			${DESTDIR}
+			${DESTDIR} \
+            "$OUTDIR/rootfs.squashfs"
 	fi
 }
 
