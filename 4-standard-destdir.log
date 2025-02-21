@@ -1,0 +1,86 @@
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/:
+total 4
+drwxr-xr-x 1 root root   44 Feb 21 18:45 apks
+drwxr-xr-x 1 root root  198 Feb 21 18:45 boot
+drwxr-xr-x 1 root root    8 Feb 21 18:45 efi
+-rw-r--r-- 1 root root 4096 Feb 21 18:45 rootfs.squashfs
+
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/apks:
+total 0
+drwxr-xr-x 1 root root 1846 Feb 21 18:45 x86_64
+
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/apks/x86_64:
+total 148
+lrwxrwxrwx 1 root root 111 Feb 21 18:45 APKINDEX.tar.gz -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/APKINDEX.tar.gz
+lrwxrwxrwx 1 root root 121 Feb 21 18:45 alpine-base-3.21.3-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-base-3.21.3-r0.apk
+lrwxrwxrwx 1 root root 126 Feb 21 18:45 alpine-baselayout-3.6.8-r1.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-baselayout-3.6.8-r1.apk
+lrwxrwxrwx 1 root root 131 Feb 21 18:45 alpine-baselayout-data-3.6.8-r1.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-baselayout-data-3.6.8-r1.apk
+lrwxrwxrwx 1 root root 121 Feb 21 18:45 alpine-conf-3.19.2-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-conf-3.19.2-r0.apk
+lrwxrwxrwx 1 root root 118 Feb 21 18:45 alpine-keys-2.5-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-keys-2.5-r0.apk
+lrwxrwxrwx 1 root root 124 Feb 21 18:45 alpine-release-3.21.3-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/alpine-release-3.21.3-r0.apk
+lrwxrwxrwx 1 root root 119 Feb 21 18:45 apk-tools-2.14.6-r3.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/apk-tools-2.14.6-r3.apk
+lrwxrwxrwx 1 root root 118 Feb 21 18:45 busybox-1.37.0-r12.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 124 Feb 21 18:45 busybox-binsh-1.37.0-r12.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-binsh-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 130 Feb 21 18:45 busybox-mdev-openrc-1.37.0-r12.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-mdev-openrc-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 125 Feb 21 18:45 busybox-openrc-1.37.0-r12.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-openrc-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 123 Feb 21 18:45 busybox-suid-1.37.0-r12.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/busybox-suid-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 134 Feb 21 18:45 ca-certificates-bundle-20241121-r1.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ca-certificates-bundle-20241121-r1.apk
+lrwxrwxrwx 1 root root 120 Feb 21 18:45 dbus-libs-1.14.10-r4.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/dbus-libs-1.14.10-r4.apk
+lrwxrwxrwx 1 root root 121 Feb 21 18:45 ifupdown-ng-0.12.1-r6.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ifupdown-ng-0.12.1-r6.apk
+lrwxrwxrwx 1 root root 126 Feb 21 18:45 ifupdown-ng-wifi-0.12.1-r6.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ifupdown-ng-wifi-0.12.1-r6.apk
+lrwxrwxrwx 1 root root 109 Feb 21 18:45 iw-6.9-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/iw-6.9-r0.apk
+lrwxrwxrwx 1 root root 115 Feb 21 18:45 libcap2-2.71-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libcap2-2.71-r0.apk
+lrwxrwxrwx 1 root root 119 Feb 21 18:45 libcrypto3-3.3.3-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libcrypto3-3.3.3-r0.apk
+lrwxrwxrwx 1 root root 128 Feb 21 18:45 libncursesw-6.5_p20241006-r3.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libncursesw-6.5_p20241006-r3.apk
+lrwxrwxrwx 1 root root 116 Feb 21 18:45 libnl3-3.11.0-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libnl3-3.11.0-r0.apk
+lrwxrwxrwx 1 root root 116 Feb 21 18:45 libssl3-3.3.3-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/libssl3-3.3.3-r0.apk
+lrwxrwxrwx 1 root root 116 Feb 21 18:45 mdev-conf-4.7-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/mdev-conf-4.7-r0.apk
+lrwxrwxrwx 1 root root 113 Feb 21 18:45 musl-1.2.5-r9.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/musl-1.2.5-r9.apk
+lrwxrwxrwx 1 root root 119 Feb 21 18:45 musl-utils-1.2.5-r9.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/musl-utils-1.2.5-r9.apk
+lrwxrwxrwx 1 root root 138 Feb 21 18:45 ncurses-terminfo-base-6.5_p20241006-r3.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ncurses-terminfo-base-6.5_p20241006-r3.apk
+lrwxrwxrwx 1 root root 116 Feb 21 18:45 openrc-0.55.1-r2.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/openrc-0.55.1-r2.apk
+lrwxrwxrwx 1 root root 123 Feb 21 18:45 pcsc-lite-libs-2.2.3-r1.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/pcsc-lite-libs-2.2.3-r1.apk
+lrwxrwxrwx 1 root root 116 Feb 21 18:45 scanelf-1.3.8-r1.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/scanelf-1.3.8-r1.apk
+lrwxrwxrwx 1 root root 121 Feb 21 18:45 ssl_client-1.37.0-r12.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/ssl_client-1.37.0-r12.apk
+lrwxrwxrwx 1 root root 115 Feb 21 18:45 vim-9.1.1105-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/vim-9.1.1105-r0.apk
+lrwxrwxrwx 1 root root 122 Feb 21 18:45 vim-common-9.1.1105-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/vim-common-9.1.1105-r0.apk
+lrwxrwxrwx 1 root root 123 Feb 21 18:45 wpa_supplicant-2.10-r11.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/wpa_supplicant-2.10-r11.apk
+lrwxrwxrwx 1 root root 130 Feb 21 18:45 wpa_supplicant-openrc-2.10-r11.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/wpa_supplicant-openrc-2.10-r11.apk
+lrwxrwxrwx 1 root root 115 Feb 21 18:45 xxd-9.1.1105-r0.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/xxd-9.1.1105-r0.apk
+lrwxrwxrwx 1 root root 113 Feb 21 18:45 zlib-1.3.1-r2.apk -> /home/build/tmp/mkimage.PvF8gI/apks_x86_64_d0a4cb12d213886682ecb906bb404fd361d6faf0/apks/x86_64/zlib-1.3.1-r2.apk
+
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/boot:
+total 20
+drwxr-xr-x 1 root root   0 Feb 21 18:45 dtbs-lts
+drwxr-xr-x 1 root root  16 Feb 21 18:45 grub
+drwxr-xr-x 1 root root 158 Feb 21 18:45 syslinux
+lrwxrwxrwx 1 root root 178 Feb 21 18:45 System.map-6.12.16-0-lts -> /home/build/tmp/mkimage.PvF8gI/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/System.map-6.12.16-0-lts
+lrwxrwxrwx 1 root root 174 Feb 21 18:45 config-6.12.16-0-lts -> /home/build/tmp/mkimage.PvF8gI/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/config-6.12.16-0-lts
+lrwxrwxrwx 1 root root 167 Feb 21 18:45 initramfs-lts -> /home/build/tmp/mkimage.PvF8gI/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/initramfs-lts
+lrwxrwxrwx 1 root root 165 Feb 21 18:45 modloop-lts -> /home/build/tmp/mkimage.PvF8gI/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/modloop-lts
+lrwxrwxrwx 1 root root 165 Feb 21 18:45 vmlinuz-lts -> /home/build/tmp/mkimage.PvF8gI/kernel_x86_64_lts_6145bf6277671291f5fe9a1e5b202610f8a57f88_linux_lts_linux_firmware_wireless_regdb_xtables_addons_lts/boot/vmlinuz-lts
+
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/boot/dtbs-lts:
+total 0
+
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/boot/grub:
+total 4
+lrwxrwxrwx 1 root root 118 Feb 21 18:45 grub.cfg -> /home/build/tmp/mkimage.PvF8gI/grub_cfg_boot_grub_grub_cfg_06a48979366ae2f74f9a3a3f63fef5131a793fbe/boot/grub/grub.cfg
+
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/boot/syslinux:
+total 28
+lrwxrwxrwx 1 root root 107 Feb 21 18:45 isohdpfx.bin -> /home/build/tmp/mkimage.PvF8gI/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/isohdpfx.bin
+lrwxrwxrwx 1 root root 107 Feb 21 18:45 isolinux.bin -> /home/build/tmp/mkimage.PvF8gI/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/isolinux.bin
+lrwxrwxrwx 1 root root 106 Feb 21 18:45 ldlinux.c32 -> /home/build/tmp/mkimage.PvF8gI/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/ldlinux.c32
+lrwxrwxrwx 1 root root 107 Feb 21 18:45 libcom32.c32 -> /home/build/tmp/mkimage.PvF8gI/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/libcom32.c32
+lrwxrwxrwx 1 root root 106 Feb 21 18:45 libutil.c32 -> /home/build/tmp/mkimage.PvF8gI/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/libutil.c32
+lrwxrwxrwx 1 root root 104 Feb 21 18:45 mboot.c32 -> /home/build/tmp/mkimage.PvF8gI/syslinux_b1db609243c8a56d3a840a0750c5d8482011bb60/boot/syslinux/mboot.c32
+lrwxrwxrwx 1 root root 138 Feb 21 18:45 syslinux.cfg -> /home/build/tmp/mkimage.PvF8gI/syslinux_cfg_boot_syslinux_syslinux_cfg_1f7f7f803bd6492e2ab43ae57d09abadb5557f60/boot/syslinux/syslinux.cfg
+
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/efi:
+total 0
+drwxr-xr-x 1 root root 22 Feb 21 18:45 boot
+
+tmp/mkimage.PvF8gI/image-b379d19ab9a106e256f3b5b78b3c60f47eb44804-x86_64-standard/efi/boot:
+total 4
+lrwxrwxrwx 1 root root 124 Feb 21 18:45 bootx64.efi -> /home/build/tmp/mkimage.PvF8gI/grub_efi_x86_64_efi_bootx64_efi_31231d1f06ca653e004d2ba0fe54921aa0c31203/efi/boot/bootx64.efi
