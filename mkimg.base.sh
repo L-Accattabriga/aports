@@ -243,7 +243,7 @@ create_image_iso() {
 	local _efiboot
 
     echo "Creating squashfs root filesystem...."
-    mksquashfs "$DESTDIR" "$OUTDIR/rootfs.squashfs" -comp xz -Xbcj x86
+    mksquashfs "$DESTDIR" "$DESTDIR/boot/rootfs.squashfs" -comp xz -Xbcj x86
 
     printf "BREAKPOINT BEFORE IMAGE IS CREATED\n"
     printf "local IOS: $ISO\nOUTDIR: ${OUTDIR}\nDESTDIR: ${DESTDIR}\n"
