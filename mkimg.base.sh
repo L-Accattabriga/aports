@@ -38,11 +38,23 @@ build_apks() {
 	local _apksdir="$DESTDIR/apks"
 	local _archdir="$_apksdir/$ARCH"
 	mkdir -p "$_archdir"
+    echo "mkimg.base line40 mkdir -p $_archdir"
+    read -r 
 
+
+    echo "1. apksdir - $_apksdir"
+    echo "2. archdir - $_archdir"
+    echo "3. destdir - $DESTDIR"
+    echo "4. apks - $apks"
+    echo "5. apkroot - $APKROOT"
+    read -r
 	apk fetch --root "$APKROOT" --link --recursive --output "$_archdir" $apks
 	if ! ls "$_archdir"/*.apk >& /dev/null; then
 		return 1
 	fi
+    
+    echo "mkimg.bae line56 apk index pause"
+    read -r
 
 	apk index \
 		--root "$APKROOT" \
@@ -53,6 +65,10 @@ build_apks() {
 		"$_archdir"/*.apk
 	abuild-sign "$_archdir"/APKINDEX.tar.gz
 	touch "$_apksdir/.boot_repository"
+
+    echo "mkimg.base line68 apk index pause"
+
+    read -r
 }
 
 section_apks() {
@@ -242,13 +258,6 @@ create_image_iso() {
 	local _isolinux
 	local _efiboot
 
-    echo "Creating squashfs root filesystem...."
-    mksquashfs "$DESTDIR" "$DESTDIR/boot/rootfs.squashfs" -comp xz -Xbcj x86
-
-    printf "BREAKPOINT BEFORE IMAGE IS CREATED\n"
-    printf "local IOS: $ISO\nOUTDIR: ${OUTDIR}\nDESTDIR: ${DESTDIR}\n"
-    read
-
 	if [ -e "${DESTDIR}/boot/syslinux/isolinux.bin" ]; then
 		# isolinux enabled
 		_isolinux="
@@ -303,6 +312,9 @@ create_image_iso() {
 			done
 			iso_opts="$iso_opts -no-emul-boot -eltorito-boot boot/merged.img"
 		fi
+        printf "\n***iso=${ISO}***\n***gen_volid=${gen_volid}***\n***_isolinux=$_isolinux***\n***_efiboot=$_efiboot***\n***iso_opts=${iso_opts}***\n***destdir=${DESTDIR}***\n"
+        read -r
+
 		xorrisofs \
 			-quiet \
 			-output ${ISO} \
@@ -311,12 +323,11 @@ create_image_iso() {
 			-rational-rock \
 			-sysid LINUX \
 			-volid "$(gen_volid)" \
-			#$_isolinux \
-			#$_efiboot \
+			$_isolinux \
+			$_efiboot \
 			-follow-links \
 			${iso_opts} \
-			${DESTDIR} \
-            "$OUTDIR/rootfs.squashfs"
+			${DESTDIR}
 	fi
 }
 
@@ -340,7 +351,7 @@ profile_base() {
 		x86_64) initfs_features="$initfs_features nfit";;
 		arm*|aarch64) initfs_features="$initfs_features phy";;
 	esac
-	apks="alpine-base vim"
+	apks=""
 	apkovl=
 	hostname="alpine"
 }

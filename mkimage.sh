@@ -10,14 +10,13 @@
 # FIXME: --release: cp/mv images to REPODIR/$ARCH/releases/
 # FIXME: --update-latest: rewrite latest-releases.yaml with this build
 
-#. /root/scripts/bin/debug.sh
+set -e
 
-. /root/scripts/bin/debug.sh
 # get abuild configurables
 . /usr/share/abuild/functions.sh
 
-
-
+. /root/scripts/bin/debug.sh 
+set -x
 
 scriptdir="$(dirname "$0")"
 git=$(command -v git) || git=true

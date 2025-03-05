@@ -1,5 +1,3 @@
-#. /root/scripts/bin/debug.sh
-
 profile_standard() {
 	title="Standard"
 	desc="Alpine as it was intended.
@@ -21,7 +19,10 @@ profile_standard() {
 		initfs_cmdline="modules=loop,squashfs,sd-mod,usb-storage,ibmvscsi quiet"
 		;;
 	esac
-	apks="$apks iw wpa_supplicant"
+	apks="$apks alpine-base apk-cron busybox chrony dhcpcd doas e2fsprogs
+		kbd-bkeymaps network-extras openntpd openssl openssh
+		tzdata wget tiny-cloud-alpine iw wpa_supplicant vim tmux kbd"
+    apkovl="aports/scripts/genapkovl-mkimgoverlay.sh"
 }
 
 profile_extended() {
